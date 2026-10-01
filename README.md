@@ -1,1 +1,0 @@
-echo "# Sci-kids"
