@@ -1,0 +1,235 @@
+
+.partnersSection {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .partnersContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 44px 52px 84px;
+    background: linear-gradient(to top, #FFC909, #ffffff);
+
+  }
+  
+  .headerSection {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    text-align: center;
+    letter-spacing: 1.08px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font: 400 36px Righteous, sans-serif;
+  }
+  
+  .logoImage {
+    aspect-ratio: 1.07;
+    object-fit: contain;
+    object-position: center;
+    width: 113px;
+    max-width: 100%;
+  }
+  
+  .titleContainer {
+    align-self: end;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+  }
+  
+  .mainTitle {
+    color: rgba(156, 41, 178, 1);
+    align-self: center;
+    border: 3px solid rgba(255, 255, 255, 1);
+  }
+  
+  .subTitle {
+    color: rgba(255, 201, 9, 1);
+    margin-top: 15px;
+  }
+  
+  .partnersGrid {
+    z-index: 10;
+    margin-top: 78px;
+  }
+  
+  .gridRow {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .gridColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 0;
+  }
+  
+  .partnerLogo {
+    aspect-ratio: 1.07;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+  }
+  
+  .centerLogo {
+    aspect-ratio: 1.29;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    margin-top: 147px;
+    flex-grow: 1;
+  }
+  
+  .bottomSection {
+    align-self: end;
+    width: 100%;
+    max-width: 1383px;
+  }
+  
+  .bottomRow {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .bottomColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 27%;
+    margin-left: 0;
+  }
+  
+  .bottomLogo {
+    aspect-ratio: 1.07;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    margin-top: 297px;
+    flex-grow: 1;
+  }
+  
+  .rightColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 73%;
+    margin-left: 20px;
+  }
+  
+  .rightLogoContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .wideLogo {
+    aspect-ratio: 2.18;
+    object-fit: contain;
+    object-position: center;
+    width: 826px;
+    max-width: 100%;
+  }
+  
+  .bottomWideLogo {
+    aspect-ratio: 3.01;
+    object-fit: contain;
+    object-position: center;
+    width: 573px;
+    align-self: end;
+    margin-top: 15px;
+    max-width: 100%;
+  }
+  
+  @media (max-width: 991px) {
+    .partnersContainer {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  
+    .headerSection {
+      max-width: 100%;
+    }
+  
+    .titleContainer {
+      max-width: 100%;
+    }
+  
+    .mainTitle {
+      max-width: 100%;
+    }
+  
+    .subTitle {
+      max-width: 100%;
+    }
+  
+    .partnersGrid {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .gridRow {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  
+    .gridColumn {
+      width: 100%;
+    }
+  
+    .partnerLogo {
+      margin-top: 37px;
+    }
+  
+    .centerLogo {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .bottomSection {
+      max-width: 100%;
+    }
+  
+    .bottomRow {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  
+    .bottomColumn {
+      width: 100%;
+    }
+  
+    .bottomLogo {
+      margin-top: 40px;
+    }
+  
+    .rightColumn {
+      width: 100%;
+    }
+  
+    .rightLogoContainer {
+      max-width: 100%;
+    }
+  }
+
+
+  /* Appliquer overflow-x: hidden à l'ensemble du body */
+body {
+  overflow-x: hidden;
+}
+
+/* Pour éviter que certains éléments ne débordent */
+.partnersContainer, .partnersGrid, .gridRow, .bottomSection, .rightColumn {
+  max-width: 100%;
+  box-sizing: border-box; /* Cela évite les débordements dus aux paddings/marges */
+}
+
+/* Vérifiez les éléments qui peuvent provoquer un débordement horizontal */
+.gridRow, .bottomRow {
+  width: 100%;
+  overflow: hidden;
+}

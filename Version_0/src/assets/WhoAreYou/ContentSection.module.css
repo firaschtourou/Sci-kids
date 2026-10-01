@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.main {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    background-color: #87caf7;
+    /* Exemple de dégradé */
+    background-size: cover;
+    /* Assure que l'image/dégradé couvre tout */
+}
+
+.introduction {
+    position: relative;
+    color: rgba(85, 9, 100, 1);
+    letter-spacing: 1.26Px;
+    text-align: center;
+    margin-top: -70px;
+    font: 400 42px Righteous, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .introduction {
+        margin-top: 40px;
+        max-width: 100%;
+    }
+}
+
+.selectionContainer {
+    position: relative;
+    display: flex;
+    /* Utiliser Flexbox */
+    justify-content: center;
+    /* Centrer les éléments horizontalement */
+    align-items: center;
+    /* Centrer les éléments verticalement */
+    gap: 100px;
+    /* Espacement entre les groupes */
+    width: 100%;
+    max-width: 1087px;
+    margin: 14px auto;
+    /* Centrer horizontalement le conteneur */
+    font: 500 32px Poppins, sans-serif;
+    margin-top: -30px;
+}
+
+@media (max-width: 991px) {
+    .selectionContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+.selectionGroup {
+    display: flex;
+    flex-direction: column;
+    /* Aligner l'image et le bouton verticalement */
+    align-items: center;
+    /* Centrer les éléments dans le groupe */
+    text-align: center;
+}
+
+.image {
+    width: 350px;
+    /* Taille des images */
+    height: auto;
+    /* Maintenir le ratio de l'image */
+    margin-bottom: 10px;
+    /* Espacement entre l'image et le bouton */
+    object-fit: contain;
+    object-position: center;
+    margin-top: 95px;
+}
+
+.image1 {
+    width: 300px;
+    /* Taille des images */
+    height: auto;
+    /* Maintenir le ratio de l'image */
+    margin-bottom: 10px;
+    /* Espacement entre l'image et le bouton */
+    object-fit: contain;
+    object-position: center;
+}
+
+.selectionButton {
+    align-self: center;
+    border-radius: 20px;
+    background-color: rgba(127, 212, 97, 1);
+    color: rgba(251, 251, 251, 1);
+    min-height: 65px;
+    width: 211px;
+    margin-top: 13px;
+    padding: 9px 30px;
+    border: 4px solid rgba(74, 163, 223, 1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+@media (max-width: 991px) {
+    .selectionButton {
+        padding: 0 20px;
+    }
+
+    .image,
+    .image1 {
+        width: 400px;
+    }
+}

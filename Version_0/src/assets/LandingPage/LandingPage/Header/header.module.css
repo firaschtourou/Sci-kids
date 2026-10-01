@@ -1,0 +1,178 @@
+.landingPage {
+  z-index: 2;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 102, 178, 1);
+  color: white;
+  font-family: 'Comic Sans MS', 'Comic Sans', sans-serif;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+.head {
+  margin-top: -15px;
+  z-index: 2;
+  width: 100%;
+}
+
+/* Styling the logo */
+.Logo {
+  height: 60px;
+  object-fit: contain;
+  z-index: 2;
+}
+
+/* Styling the navigation menu */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .item {
+  font-size: 25px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.icon {
+  display: flex;
+  gap: 15px;
+  margin-left: 20px;
+  /* Ajustez l'espace entre les icônes et le menu */
+}
+
+.icon img {
+  height: 36px;
+  width: 36px;
+  border-radius: 5%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.icon img:hover {
+  transform: scale(1.1);
+}
+
+.navbar .item:hover {
+  color: #f1c40f;
+}
+
+/* Language dropdown */
+.languageDropdown {
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.languageDropdown:hover {
+  color: #f1c40f;
+}
+
+/* Ensuring responsiveness */
+@media (max-width: 1024px) {
+
+  /* For tablets and below */
+  .header {
+      flex-wrap: wrap;
+      text-align: center;
+      padding: 20px;
+  }
+
+  .navbar {
+      order: 2;
+      margin: 10px 0;
+      width: 100%;
+      justify-content: center;
+  }
+
+  .icon {
+      order: 3;
+      justify-content: center;
+  }
+
+  .Logo {
+      order: 1;
+      margin-bottom: 10px;
+      height: 50px;
+  }
+
+  .navbar ul {
+      gap: 30px;
+  }
+
+  .navbar .item {
+      font-size: 20px;
+  }
+
+  .languageDropdown {
+      font-size: 20px;
+  }
+
+  .icon img {
+      height: 30px;
+      width: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* For smaller tablets and phones */
+  .header {
+      flex-direction: column;
+      text-align: center;
+      padding: 15px;
+  }
+
+  .navbar {
+      flex-wrap: wrap;
+  }
+
+  .navbar ul {
+      width: 100%;
+      justify-content: center;
+  }
+
+  .icon {
+      margin-top: 10px;
+      justify-content: center;
+  }
+
+  .Logo {
+      order: 1;
+      margin-bottom: 15px;
+      height: 50px;
+  }
+
+  .navbar .item {
+      font-size: 18px;
+  }
+
+  .languageDropdown {
+      font-size: 18px;
+  }
+
+  .icon img {
+      height: 28px;
+      width: 28px;
+  }
+}

@@ -1,0 +1,105 @@
+.appContainer {
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.appContainer h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.mainContent {
+  display: flex;
+  flex: 1;
+  flex-direction: column; /* Changé de row à column */
+  gap: 20px;
+  height: calc(100vh - 100px);
+}
+
+.workspaceArea {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 0; /* Important pour le contenu défilant */
+}
+
+.actionButtons {
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0; /* Empêche le rétrécissement */
+}
+
+.actionButtons button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.actionButtons button:hover {
+  background-color: #45a049;
+}
+
+.buttonIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.workspaceWithImage {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  min-height: 0; /* Important pour le contenu défilant */
+  
+}
+
+.blocklyWorkspace {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  min-width: 0; /* Important pour le contenu défilant */
+}
+
+.imagePreviewContainer {
+  flex: 0 0 300px; /* Largeur fixe pour le conteneur d'image */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.uploadedImage {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease, width 0.3s ease;
+}
+
+.generatedCode {
+  height: 200px;
+  flex-shrink: 0; /* Empêche le rétrécissement */
+}
+
+.codeOutput {
+  width: 100%;
+  height: calc(100% - 30px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: monospace;
+  resize: none;
+}

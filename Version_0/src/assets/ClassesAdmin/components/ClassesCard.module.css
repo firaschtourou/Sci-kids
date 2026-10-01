@@ -1,0 +1,62 @@
+.classesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* Espacement entre les cartes */
+  width: 80%;
+  margin: auto;
+}
+
+.classCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  font: 500 14px Poppins, sans-serif;
+  letter-spacing: -0.14px;
+  background: #f9f9f9;
+  border: 1px solid rgba(238, 238, 238, 1);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: auto;
+  overflow: hidden;
+}
+
+.className,
+.teacherName {
+  color: rgba(41, 45, 50, 1);
+  font-size: 16px;
+  margin: 0 20px;
+  /* Ajout d'un espace entre le nom de classe et le professeur */
+}
+
+.actionButtons {
+  display: flex;
+  gap: 20px;
+  /* Augmentation de l'espace entre les boutons */
+}
+
+.modifyButton {
+  border-radius: 4px;
+  background-color: rgba(22, 192, 152, 0.38);
+  padding: 6px 14px;
+  color: rgba(0, 135, 103, 1);
+  border: 1px solid rgba(0, 176, 135, 1);
+  cursor: pointer;
+}
+
+.deleteButton {
+  border-radius: 4px;
+  background-color: rgba(255, 197, 197, 1);
+  padding: 6px 14px;
+  color: rgba(223, 4, 4, 1);
+  border: 1px solid rgba(223, 4, 4, 1);
+  cursor: pointer;
+}
+
+.divider {
+  height: 1px;
+  border: 1px solid rgba(238, 238, 238, 1);
+  width: 100%;
+  margin: 10px 0;
+}

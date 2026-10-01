@@ -1,0 +1,400 @@
+.div49 {
+    background-color: #60d394;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 41px 48px;
+  }
+  
+  .div50 {
+    display: flex;
+    width: 100%;
+    max-width: 1382px;
+    align-items: end;
+    gap: 20px 100px;
+    flex-wrap: wrap;
+  }
+  
+  
+  
+  .div51 {
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+  }
+  
+  .img28 {
+    aspect-ratio: 3.39;
+    object-fit: contain;
+    object-position: center;
+    width: 220px;
+    max-width: 100%;
+  }
+  
+  .div52 {
+    display: flex;
+    margin-top: 54px;
+    padding-left: 36px;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  
+  .aboutCompany {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font: 22px Righteous, sans-serif;
+  }
+  
+  .loremIpsumDolorSitAmetConsectetuerAdipiscingElitSedDoEiusmodTemporIncididuntUtLaboreEtDoloreMag2 {
+    color: rgba(115, 115, 115, 1);
+    margin-top: 28px;
+    font: 14px Poppins, sans-serif;
+    width: 190px;
+  }
+  
+  .img29 {
+    aspect-ratio: 4.76;
+    object-fit: contain;
+    object-position: center;
+    width: 195px;
+    margin-top: 22px;
+    max-width: 100%;
+  }
+  
+  .div53 {
+    display: flex;
+    margin-top: 118px;
+    flex-direction: column;
+    align-items: start;
+    color: rgba(115, 115, 115, 1);
+    font: 400 16px Roboto, sans-serif;
+  }
+  
+  
+  .ourServices {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    align-self: stretch;
+    font: 22px Righteous, sans-serif;
+  }
+  
+  .onlineClass {
+    letter-spacing: 0.48Px;
+    margin-top: 24px;
+  }
+  
+  .babyCare {
+    letter-spacing: 0.48Px;
+    margin-top: 23px;
+  }
+  
+  .shop {
+    letter-spacing: 0.48Px;
+    margin-top: 20px;
+  }
+  
+  .kids {
+    letter-spacing: 0.48Px;
+    margin-top: 21px;
+  }
+  
+  .nurse {
+    letter-spacing: 0.48Px;
+    margin-top: 24px;
+  }
+  
+  .div54 {
+    margin-top: 118px;
+    flex-grow: 1;
+    flex-basis: auto;
+  }
+  
+  .div55 {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .column15 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 26%;
+    margin-left: 0px;
+  }
+  
+  .div56 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: rgba(115, 115, 115, 1);
+    font: 400 16px Roboto, sans-serif;
+  }
+  
+  .usefulLinks {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font: 22px Righteous, sans-serif;
+  }
+  
+  .aboutUs2 {
+    letter-spacing: 0.48Px;
+    margin-top: 24px;
+  }
+  
+  .ourTeam {
+    letter-spacing: 0.48Px;
+    margin-top: 24px;
+  }
+  
+  .privacyPolicy {
+    letter-spacing: 0.48Px;
+    margin-top: 23px;
+  }
+  
+  .contactUs {
+    letter-spacing: 0.48Px;
+    margin-top: 20px;
+  }
+  
+  .termsOfService {
+    letter-spacing: 0.48Px;
+    align-self: stretch;
+    margin-top: 19px;
+  }
+  
+  .column16 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 74%;
+    margin-left: 20px;
+  }
+  
+  .div57 {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 1);
+    font: 400 14px Poppins, sans-serif;
+  }
+  
+  .newsletter {
+    text-align: center;
+    align-self: start;
+    font: 22px Righteous, sans-serif;
+  }
+  
+  .aplicationsBeforeFrontEndOrtalsVisualizeFrontEnd {
+    color: rgba(115, 115, 115, 1);
+    font-size: 16px;
+    letter-spacing: 0.48Px;
+    align-self: start;
+    margin-top: 28px;
+  }
+  
+  .yourEmail2 {
+    background-color: white;
+    margin-top: 31px;
+    color: rgba(115, 115, 115, 1);
+    letter-spacing: 0.42Px;
+    padding: 16px 11px;
+  }
+  
+  .subscribe {
+    background-color: rgba(243, 156, 18, 1);
+    margin-top: 11px;
+    white-space: nowrap;
+    letter-spacing: 0.42Px;
+    padding: 16px 70px;
+  }
+  
+  .div58 {
+    align-self: end;
+    margin-top: 32px;
+    width: 1379px;
+    max-width: 100%;
+    height: 1px;
+  }
+  
+  .copyrightSciKidsTechnologyHubAllRightsReserved {
+    color: rgba(115, 115, 115, 1);
+    letter-spacing: 0.48Px;
+    align-self: center;
+    margin: 28px 0 0 27px;
+    font: 400 16px Poppins, sans-serif;
+  }
+  
+ /* Styles communs pour les titres */
+.aboutCompany,
+.ourServices,
+.usefulLinks,
+.newsletter {
+  font-family: 'Righteous', sans-serif; /* Police Righteous */
+  color: rgba(255, 255, 255, 1); /* Couleur blanche */
+  text-align: center;
+  font-size: 22px;
+}
+/* Styles communs pour les textes en Roboto */
+.loremIpsumDolorSitAmetConsectetuerAdipiscingElitSedDoEiusmodTemporIncididuntUtLaboreEtDoloreMag2,
+.onlineClass,
+.babyCare,
+.shop,
+.kids,
+.nurse,
+.aboutUs2,
+.ourTeam,
+.privacyPolicy,
+.contactUs,
+.termsOfService,
+.aplicationsBeforeFrontEndOrtalsVisualizeFrontEnd {
+  font-family: 'Roboto', sans-serif; /* Police Roboto */
+  color: rgba(115, 115, 115, 1); /* Couleur grise */
+  font-size: 16px; /* Taille de police uniforme */
+  letter-spacing: 0.48px; /* Espacement des lettres */
+  line-height: 1.6; /* Hauteur de ligne */
+}
+/* Styles pour réinitialiser input et button */
+.yourEmail2 input,
+.subscribe button {
+  all: unset; /* Enlève tous les styles par défaut du navigateur */
+  box-sizing: border-box; /* Prend en compte le padding dans la largeur */
+  width: 100%; /* S'étend à 100% du parent */
+  height: 100%; /* S'étend à 100% du parent */
+}
+
+/* Styles hérités des div parents */
+.yourEmail2 {
+  display: flex;
+  align-items: center; /* Centre verticalement */
+  justify-content: center; /* Centre horizontalement */
+  padding: 10px; /* Ajoute un espacement interne */
+  border: 1px solid #ccc; /* Ajoute une bordure subtile */
+  border-radius: 5px; /* Coins arrondis */
+  font-family: 'Roboto', sans-serif; /* Police Roboto */
+  font-size: 16px;
+  color: #333; /* Couleur du texte */
+  background-color: #f9f9f9; /* Fond gris clair */
+  cursor: pointer; /* Change le curseur au survol */
+}
+.subscribe {
+    display: flex;
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+    padding: 10px; /* Ajoute un espacement interne */
+    border: 1px solid #ccc; /* Ajoute une bordure subtile */
+    border-radius: 5px; /* Coins arrondis */
+    font-family: 'Roboto', sans-serif; /* Police Roboto */
+    font-size: 16px;
+    color: #333; /* Couleur du texte */
+    background-color: #F39C12; /* Fond gris clair */
+    cursor: pointer; /* Change le curseur au survol */
+
+  }
+  .subscribe button {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;     /* Centre verticalement */
+    width: 150px;            /* Largeur du bouton (ajustez selon vos besoins) */
+    height: 50px;            /* Hauteur du bouton (ajustez selon vos besoins) */
+    font-size: 16px;         /* Taille de police */
+  /* Couleur de fond */
+    color: white;            /* Couleur du texte */
+    border: none;            /* Enlever la bordure */
+    border-radius: 5px;      /* Bordure arrondie */
+  }
+
+
+/* Ajout de styles interactifs */
+.yourEmail2 input:focus {
+  outline: none; /* Supprime l'effet d'outline par défaut */
+ /* Bordure bleue au focus/hover */
+  background-color: #f1f1f1; /* Légère variation du fond */
+}
+
+
+.copyrightSciKidsTechnologyHubAllRightsReserved
+{
+font-family: 'Poppins', sans-serif; /* Police Roboto */
+  color: rgba(115, 115, 115, 1); /* Couleur grise */
+  font-size: 16px; /* Taille de police uniforme */
+  letter-spacing: 0.48px; /* Espacement des lettres */
+  line-height: 1.6; 
+}
+
+.copyrightSciKidsTechnologyHubAllRightsReserved p {
+    text-align: center; /* Centrer le texte */
+    border-top: 2px solid black; /* Ligne solide en haut */
+    padding-top: 10px; /* Espacement entre le texte et la ligne */
+    margin-top: 10px; /* Espacement entre la ligne et ce qui suit */
+    
+  }
+  @media (max-width: 768px) {
+    .div49 {
+        padding: 20px; /* Réduction des marges pour mobile/tablette */
+    }
+
+    .div50 {
+        gap: 10px 50px; /* Réduction des espaces */
+        flex-direction: column;
+    }
+
+    .img28 {
+        width: 100%; /* Adaptation de l'image */
+    }
+
+    .div52, .div53, .div56, .div57 {
+        padding-left: 0; /* Suppression du padding gauche */
+    }
+
+    .column15 {
+        width: 100%; /* Colonne pleine largeur sur mobile */
+        margin-left: 0; /* Suppression du margin */
+    }
+
+    .column16 {
+        width: 100%; /* Colonne pleine largeur sur mobile */
+        margin-left: 0;
+    }
+
+    .subscribe {
+        padding: 16px 30px; /* Réduction des marges du bouton */
+    }
+
+    .copyrightSciKidsTechnologyHubAllRightsReserved {
+        font-size: 14px; /* Taille de texte plus petite sur mobile */
+        margin: 15px 0;
+    }
+
+    .yourEmail2 {
+        width: 100%; /* Champ email pleine largeur sur mobile */
+    }
+
+    .subscribe button {
+        width: 100%; /* Bouton pleine largeur sur mobile */
+    }
+}
+
+/* Media Queries pour les petites tablettes */
+@media (max-width: 480px) {
+    .aboutCompany,
+    .ourServices,
+    .usefulLinks,
+    .newsletter {
+        font-size: 18px; /* Taille du texte plus petite */
+    }
+
+    .loremIpsumDolorSitAmetConsectetuerAdipiscingElitSedDoEiusmodTemporIncididuntUtLaboreEtDoloreMag2 {
+        font-size: 12px;
+        width: auto; /* Ajuste la largeur */
+    }
+
+    .img28, .img29 {
+        width: 100%; /* Adaptation des images */
+    }
+
+    .subscribe {
+        padding: 16px 20px; /* Réduction du padding du bouton */
+    }
+}

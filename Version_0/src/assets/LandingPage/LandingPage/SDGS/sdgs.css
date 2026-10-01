@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .wrapper {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    padding: 136px 74px;
+  }
+  
+  .title {
+    color: rgba(90, 215, 143, 1);
+    letter-spacing: 1.08px;
+    text-align: center;
+    align-self: center;
+    font: 400 36px Righteous, sans-serif;
+  }
+  
+  .description {
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 1.08px;
+    text-align: center;
+    align-self: end;
+    margin-top: 71px;
+    font: 400 36px Righteous, sans-serif;
+  }
+  
+  .goalsGrid {
+    margin-top: 133px;
+  }
+  
+  .gridRow {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .gridColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+  }
+  
+  .gridColumn:first-child {
+    margin-left: 0;
+  }
+  
+  .goalImage {
+    aspect-ratio: 1.07;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    flex-grow: 1;
+  }
+  
+  .secondGridRow {
+    margin: 71px 0 -28px;
+  }
+  
+  @media (max-width: 991px) {
+    .wrapper {
+      max-width: 100%;
+      padding: 100px 20px;
+    }
+  
+    .title {
+      max-width: 100%;
+    }
+  
+    .description {
+      max-width: 100%;
+      margin: 40px 10px 0 0;
+    }
+  
+    .goalsGrid {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .gridRow {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  
+    .gridColumn {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .goalImage {
+      margin-top: 40px;
+    }
+  
+    .secondGridRow {
+      max-width: 100%;
+      margin: 40px 0 10px;
+    }
+  }

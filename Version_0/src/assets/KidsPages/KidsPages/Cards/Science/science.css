@@ -1,0 +1,86 @@
+.topicContainer {
+    display: flex;
+    max-width: 465px;
+    gap: 35px;
+  }
+  
+  .mainCard {
+    border-radius: 20px;
+    background-color: rgba(115, 219, 213, 1);
+    box-shadow: 0 4px 4px rgba(238, 238, 238, 1);
+    display: flex;
+    padding: 0 0 0 25px;
+    flex-direction: column;
+    flex: 1;
+    width: fit-content;
+  }
+  
+  .decorationGroup {
+    align-self: flex-end;
+    display: flex;
+    width: 81px;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .decorationSubGroup {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  
+  .circleDecor {
+    background-color: rgba(87, 209, 202, 1);
+    border-radius: 50%;
+    display: flex;
+  }
+  
+  .contentWrapper {
+    display: flex;
+    margin-top: 4px;
+    width: 100%;
+    gap: 40px 100px;
+  }
+  
+  .topicTitle {
+    color: rgba(0, 0, 0, 0.87);
+    align-self: flex-start;
+    font: 700 16px Nunito, sans-serif;
+    margin: 0;
+  }
+  
+  .decorationWrapper {
+    display: flex;
+    gap: 13px;
+    flex: 1;
+  }
+  
+  .scoreCard {
+    border-radius: 13px;
+    background-color: rgba(115, 219, 213, 1);
+    box-shadow: 0 4px 4px rgba(238, 238, 238, 1);
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    white-space: nowrap;
+    text-align: center;
+    margin: auto 0;
+    padding: 1px 0 1px 12px;
+    font: 700 16px Nunito, sans-serif;
+  }
+  
+  .scoreWrapper {
+    align-self: flex-start;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .scoreContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .scoreValue {
+    margin-left: 11px;
+  }

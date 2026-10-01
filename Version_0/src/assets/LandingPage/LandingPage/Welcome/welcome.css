@@ -1,0 +1,237 @@
+.main {
+  margin-top: -176px;
+}
+
+.div4 {
+  align-self: end;
+  display: flex;
+  margin-top: 94px;
+  width: 100%;
+  max-width: 1411px;
+  flex-direction: column;
+  z-index: 2;
+}
+
+
+
+.div6 {
+  gap: 20px;
+  display: flex;
+  z-index: 2;
+}
+
+
+.column {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 50%;
+  margin-left: 0px;
+}
+
+
+.div7 {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  margin: auto 0;
+}
+
+
+.welcomeToSciKids {
+  z-index: 2;
+
+  -webkit-text-stroke: 100% white;
+  /* Stroke size and color */
+  font-size: 36px;
+  /* Adjust font size as needed */
+
+  color: white;
+  letter-spacing: 2.88Px;
+  margin-right: 866 px;
+  width: 561;
+  margin-left: 101px;
+
+  font: 1000 96px Righteous;
+
+}
+
+
+
+.div8 {
+  z-index: 2;
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+  flex-direction: column;
+  font-family: Poppins, regular;
+  padding: 0 2px;
+}
+
+
+
+.loremIpsumDolorSitAmetConsectetuerAdipiscingElitSedDoEiusmodTemporIncididuntUtLaboreEtDoloreMag {
+  color: #550964;
+  font-size: 24px;
+  font-weight: 400;
+  margin-right: 866 px;
+  width: 561;
+  margin-left: 101px;
+  z-index: 2;
+  font: poppins;
+
+}
+
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 50%;
+  z-index: 2;
+  margin-left: 20px;
+}
+
+
+
+.dooby {
+  aspect-ratio: 0.87;
+  object-fit: contain;
+  object-position: right;
+  width: 90%;
+  z-index: 2;
+  flex-grow: 1;
+
+}
+
+
+.joinNow {
+  display: block;
+  z-index: 2;
+  gap: 15px;
+  /* Espacement horizontal entre les boutons */
+  /* Espacement au-dessus des boutons */
+}
+
+.join {
+  z-index: 2;
+  /* Vert */
+  color: #5AD78F;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease;
+  align-self: start;
+  border: 4px solid #5AD78F;
+  border-radius: 20px;
+  background-color: white;
+  margin-top: 44px;
+  min-height: 75px;
+  gap: 10px;
+  overflow: hidden;
+  font-size: 32px;
+  color: #5AD78F;
+  font-weight: 500;
+  padding: 14px 30px;
+  margin-right: 1170 px;
+  width: 244 px;
+  margin-left: 101px;
+}
+
+.join:hover {
+  z-index: 2;
+  background-color: #5AD78F;
+  border: 4px solid #FFF;
+  color: #FFF;
+  transform: scale(1.05);
+}
+
+.partner {
+  z-index: 2;
+  /* Vert */
+  color: #FFF;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease;
+  align-self: start;
+  border: 4px solid #FFF;
+  border-radius: 20px;
+  background-color: #5AD78F;
+  margin-top: 44px;
+  min-height: 75px;
+  gap: 10px;
+  overflow: hidden;
+  font-size: 32px;
+  color: #FFF;
+  font-weight: 500;
+  padding: 14px 30px;
+  margin-right: 1170 px;
+  width: 244 px;
+  margin-left: 101px;
+}
+
+.partner:hover {
+  z-index: 2;
+  background-color: #FFF;
+  border: 4px solid #5AD78F;
+  color: #5AD78F;
+  transform: scale(1.05);
+}
+
+.buttons-container {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  /* Centre les boutons horizontalement */
+  align-items: center;
+  /* Centre les boutons verticalement */
+  gap: 20px;
+  /* Espacement horizontal entre les boutons */
+  margin-top: 20px;
+}
+
+.page-container {
+  z-index: 2;
+  min-height: 100vh;
+  margin-top: -150px;
+  /* Assurez-vous que la hauteur est au moins égale à l'écran */
+
+}
+
+.container {
+  position: relative;
+  margin-top: 128px;
+  width: 100%;
+  height: 100vh;
+  /* ou la hauteur que tu préfères */
+}
+
+.background-photo {
+  background-image: url('background.png');
+  background-position: center bottom;
+  /* Positionne l'image en bas */
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: -15px;
+}
+
+.foreground-photo {
+  position: absolute;
+  background-size: cover;
+  bottom: 0;
+  /* Place l'image en avant-plan au bas */
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+}

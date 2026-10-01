@@ -1,0 +1,187 @@
+.loginContainer {
+  background-color: rgba(244, 244, 244, 1);
+  overflow: hidden;
+  padding: 35px 50px;
+}
+
+@media (max-width: 1024px) {
+  .loginContainer {
+    padding: 40px 30px; /* Ajustement pour tablettes */
+  }
+}
+
+@media (max-width: 768px) {
+  .loginContainer {
+    padding: 20px;
+  }
+}
+
+.contentWrapper {
+  gap: 20px;
+  display: flex;
+}
+
+@media (max-width: 1024px) {
+  .contentWrapper {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+}
+
+.imageColumn {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 46%;
+  margin-left: 0;
+  margin-top: 0%;
+}
+
+@media (max-width: 1024px) {
+  .imageColumn {
+    width: 100%;
+    margin-top: 20px; /* Ajustement pour tablettes */
+  }
+}
+
+.loginImage {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  align-self: stretch;
+  margin: auto 0;
+}
+
+@media (max-width: 1024px) {
+  .loginImage {
+    object-fit: contain;
+    max-width: 50%;
+    object-position: center;
+    margin-top: -5%;
+    margin-left: 25%;
+  }
+}
+
+.formColumn {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 54%;
+  margin-left: 20px;
+}
+
+@media (max-width: 1024px) {
+  .formColumn {
+    width: 100%;
+    margin-left: -10px;
+  }
+}
+
+.formContainer {
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.08);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  font-family: Poppins, sans-serif;
+  line-height: 1;
+  margin: 0 auto;
+  padding: 35px 20px;
+}
+
+@media (max-width: 1024px) {
+  .formContainer {
+    max-width: 100%;
+    padding: 35px 10px;
+  }
+}
+
+.headerWrapper {
+  color: #4aa3df;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 49px;
+  align-self: start;
+  margin-left: 36px;
+}
+
+@media (max-width: 1024px) {
+  .headerWrapper {
+    margin-left: 10px;
+  }
+}
+
+.rememberMeSection {
+  display: flex;
+  margin-top: 24px;
+  width: 100%;
+  gap: 40px 100px;
+  font-size: 16px;
+  font-weight: 400;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+  .rememberMeSection {
+    max-width: 100%;
+    margin-right: 5px;
+    gap: 20px; /* Ajustement pour tablettes */
+  }
+}
+
+.loginButton {
+  border-radius: 8px;
+  background-color: #4aa3df;
+  margin-top: 24px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  white-space: nowrap;
+  padding: 15px 40px;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .loginButton {
+    max-width: 100%;
+    white-space: normal;
+    padding: 10px 20px;
+  }
+}
+
+.registerPrompt {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  align-self: center;
+  margin-top: 47px;
+}
+
+.registerLink {
+  color: #4aa3df;
+  cursor: pointer;
+}
+.forgotPassword {
+  margin-left: 40%;
+  color: #4aa3df; 
+  background: none; 
+  border: none; 
+  cursor: pointer;
+  font-size: 16px; 
+  padding: 5px;
+}
+
+@media (max-width: 1024px) {
+  .forgotPassword {
+    max-width: 100%;
+    margin-left: 50%;
+  }
+}
+
+.forgotPassword.active {
+  color: blue; /* Couleur du texte après clic */
+}

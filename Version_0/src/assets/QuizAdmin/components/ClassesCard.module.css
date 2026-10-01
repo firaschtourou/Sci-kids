@@ -1,0 +1,137 @@
+/* Styles pour la carte principale */
+.clubCard {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px 0;
+  font: 500 14px Poppins, sans-serif;
+  letter-spacing: -0.14px;
+}
+
+/* Styles pour chaque élément de quiz */
+.quizItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(238, 238, 238, 1);
+}
+
+.clubName {
+  color: rgba(41, 45, 50, 1);
+  font-size: 16px;
+  flex: 1;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.modifyButton {
+  border-radius: 4px;
+  background-color: rgba(22, 192, 152, 0.38);
+  padding: 4px 12px;
+  color: rgba(0, 135, 103, 1);
+  border: 1px solid rgba(0, 176, 135, 1);
+  cursor: pointer;
+}
+
+.deleteButton {
+  border-radius: 4px;
+  background-color: rgba(255, 197, 197, 1);
+  padding: 4px 12px;
+  color: rgba(223, 4, 4, 1);
+  border: 1px solid rgba(223, 4, 4, 1);
+  cursor: pointer;
+}
+
+/* Styles pour le formulaire de modification */
+.editForm {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.editForm h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.inputField:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.questionContainer {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.questionContainer h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.addButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.addButton:hover {
+  background-color: #0056b3;
+}
+
+.saveButton {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.saveButton:hover {
+  background-color: #218838;
+}
+
+.cancelButton {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cancelButton:hover {
+  background-color: #c82333;
+}

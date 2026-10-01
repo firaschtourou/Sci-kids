@@ -1,0 +1,185 @@
+/* General Styles */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+/* Container for the login page */
+.loginPage {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to top, #FFE484, #ffffff);
+}
+
+/* Background images */
+.background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.schoolImage {
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+    width: 50%;
+}
+
+.characterImage {
+    position: absolute;
+    bottom: 6px;
+    right: 20px;
+    width: 23%;
+}
+
+/* Login card */
+.loginCard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px 40px;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Icon container */
+.iconBg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #abd9f7, #FFF7CD);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    /* Espace entre l'icône et le reste de la carte */
+}
+
+.icon {
+    width: 140%;
+    border-radius: 50%;
+}
+
+/* Matricule label */
+.NameLabel {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+    color: #333;
+    font-family: Poppins, sans-serif;
+    text-align: left;
+    width: 100%;
+    font-weight: bold;
+}
+
+/* Input field */
+.matriculeInput {
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #4AA3DF;
+    opacity: 56%;
+    color: #333;
+}
+
+/* Login button */
+.loginButton {
+    width: 70%;
+    padding: 10px;
+    background-color: #4AA3DF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.loginButton:hover {
+    background-color: #0362a5;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .loginCard {
+        padding: 15px;
+        width: 95%;
+    }
+
+    .NameLabel {
+        font-size: 18px;
+    }
+
+    .matriculeInput {
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .loginButton {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .iconBg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .icon {
+        width: 270%;
+    }
+
+    .schoolImage {
+        width: 60%;
+    }
+
+    .characterImage {
+        width: 30%;
+    }
+}
+
+@media (max-width: 480px) {
+    .NameLabel {
+        font-size: 16px;
+    }
+
+    .matriculeInput {
+        font-size: 12px;
+    }
+
+    .loginButton {
+        font-size: 12px;
+    }
+
+    .iconBg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .icon {
+        width: 260%;
+    }
+}

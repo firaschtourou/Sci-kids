@@ -1,0 +1,204 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden; /* Empêche le défilement */
+    box-sizing: border-box;
+  }
+  
+  .mainContent {
+    width: 78%;
+    margin-left: 20px;
+   
+  }
+  
+  .quizWrapper {
+    background-color: rgba(251, 195, 114, 1);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 48px 74px;
+    border-radius: 5px;
+    
+  }
+  
+  .quizHeader {
+    width: 57%;
+    
+  }
+  
+  .quizTitle {
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font: 48px Salsa, sans-serif;
+    text-align: right;
+  }
+  
+  .quizContent {
+    background-color: rgba(228, 169, 81, 1);
+    border-radius: 30px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 78px;
+    padding: 32px 30px;
+    border: 4px solid rgba(188, 132, 49, 1);
+    font-size: 29px;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: -0.32px;
+    line-height: 43px;
+  }
+  
+  .quizImageContainer {
+ 
+    margin-left: 690px;
+  }
+  
+  .quizImage {
+    aspect-ratio: 0.63;
+    object-fit: contain;
+    width: 100%;
+    margin-top: -800px;
+
+  }
+  
+  @media (max-width: 991px) {
+    .contentWrapper {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  
+    .sidebar,
+    .mainContent {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .quizWrapper {
+      padding: 20px;
+    }
+  
+    .quizTitle {
+      font-size: 40px;
+    }
+  
+    .quizContent {
+      margin-top: 40px;
+      padding: 20px;
+    }
+  
+    .quizImage {
+      margin-top: 40px;
+    }
+  }
+  .dashboard {
+    background-color: rgba(74, 163, 223, 1);
+    overflow: hidden;
+    height: 100vh; /* Utilise toute la hauteur de l'écran */
+    display: flex;
+    flex-direction: column;
+  }
+    
+  .content {
+    display: flex;
+    gap: 20px;
+    flex: 1; /* Prend tout l'espace restant */
+    overflow: hidden;
+  }
+  .sidebar {
+    width: 18%;
+    height: 100%; /* S'assure que la sidebar occupe toute la hauteur */
+  }
+    
+    .userProfile {
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+      font: 16px Nunito, sans-serif;
+    }
+    
+    .profileWrapper {
+      position: relative;
+      aspect-ratio: 2.786;
+      padding: 60px 62px 10px;
+  }
+    .profileBackground{
+      position: absolute;
+      inset: 0;
+      height: 70%;
+      width: 100%;
+    
+    }
+     .menuBackground {
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      
+    }
+    
+    .avatar {
+      aspect-ratio: 1;
+      width: 45px;
+      box-shadow: 0 4px 4px rgba(251, 195, 114, 1);
+      border-radius: 50%;
+      position: relative;
+    }
+    
+    .userInfo {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      margin-top: -45px;
+      margin-left: 60px;
+    }
+    .userName {
+      font-size: 20px; /* Taille du texte */
+      color: #fff; 
+      display: flex; /* Aligne les éléments horizontalement */
+      align-items: center;
+      font: 18px Nunito, sans-serif;
+    }
+    .userId {
+      font-weight: 800;
+      font-size: 16px;
+    }
+    
+    .menuItem {
+      position: relative;
+      text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 1px;
+      border: 3px solid rgba(254, 147, 170, 1); /* Définit une bordure rose */
+      aspect-ratio: 4.955;
+      margin-top: 171px;
+      padding: 9px 15px;
+      color: #fffdfd;
+      font-weight: 1000;
+      width: 255px;
+  }
+  
+    
+    .logoutWrapper {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-top: 280px;
+      font-family: Poppins, sans-serif;
+      font-weight: 500;
+      cursor: pointer;
+      margin-right: 30px;
+    }
+    
+    .logoutIcon {
+      width: 31px;
+      aspect-ratio: 1;
+    }
+    
+    .mainContent {
+      flex: 1;
+      background-color: rgba(251, 195, 114, 1);
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      overflow-y: auto; 
+    /* Ajoute un défilement uniquement si nécessaire */
+  }
+  

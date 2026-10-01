@@ -1,0 +1,271 @@
+/* Styles de base */
+.container {
+    border-radius: 30px;
+    background-color: rgba(90, 215, 143, 1);
+    padding: 22px 22px 22px 40px;
+    overflow: hidden;
+}
+
+.sidebarContent {
+    display: flex;
+    gap: 20px;
+}
+
+.sidebar {
+    width: 16%;
+    color: #fff;
+}
+
+.profileSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 19px;
+}
+
+.profileImage {
+    width: 74px;
+    height: 75px;
+    border-radius: 0;
+}
+
+.profileImage img {
+    width: 80px;
+    height: 80px;
+}
+
+.userName {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 27px;
+}
+
+.userEmail {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 2;
+    margin-top: 5px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 117px;
+}
+
+.navButton {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    cursor: pointer;
+}
+
+.mainContent {
+    width: 84%;
+    background-color: rgba(250, 251, 255, 1);
+    border-radius: 30px;
+    padding: 20px 10px 10px;
+}
+
+.header {
+    display: flex;
+    width: 954px;
+    max-width: 100%;
+    gap: 20px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+
+}
+
+.greeting {
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+
+}
+
+.searchBox {
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    color: rgba(181, 183, 192, 1);
+    letter-spacing: -0.14px;
+    padding: 7px 8px;
+}
+
+.searchIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 24px;
+}
+
+.title {
+    color: rgba(74, 163, 223, 1);
+    text-align: center;
+    margin-top: 125px;
+    -webkit-text-stroke: 2px black;
+    /* Contour noir autour des lettres */
+    /* Contour noir (pour les navigateurs compatibles) */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #888888;
+    margin: 20px;
+}
+
+.cardsContainer {
+    margin-top: 44px;
+    max-width: 100%;
+
+}
+
+.cardsGrid {
+    gap: 1px;
+    display: flex;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+}
+
+.column:first-child {
+    margin-left: 0;
+    
+}
+
+.containerimg {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.footerImage {
+    aspect-ratio: 0.79;
+    object-fit: contain;
+    width: 261px;
+    margin-top: 33px;
+    max-width: 100%;
+}
+.logoutWrapper2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 280px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 30px;
+  
+  }
+  
+  .logoutIcon2 {
+    width: 31px;
+    aspect-ratio: 1;
+  }
+
+@media (max-width: 1180px) {
+    .cardsContainer {
+        margin-top: 40px;
+        width: 97%;
+    }
+}
+
+/* Responsivité pour les Tablettes (768px - 991px) */
+@media (max-width: 991px) {
+    .container {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+
+    .sidebar {
+        width: 25%;
+        /* Augmente la largeur pour tablettes */
+    }
+
+    .mainContent {
+        width: 75%;
+        /* Ajuste la largeur */
+        margin-left: -20px;
+    }
+
+    .searchBox {
+        white-space: initial;
+    }
+
+    .title {
+        margin-top: 40px;
+    }
+
+    .cardsContainer {
+        margin-top: 40px;
+    }
+
+    .cardsGrid {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+
+    .column {
+        width: 100%;
+        margin-top: 35px;
+        margin-left: 0;
+    }
+}
+
+/* Responsivité pour les petits écrans (<768px) */
+@media (max-width: 768px) {
+    .sidebarContent {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        /* Sidebar prend toute la largeur */
+        text-align: center;
+    }
+
+    .profileSection {
+        align-items: center;
+    }
+
+    .mainContent {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .header {
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .cardsContainer {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .cardsGrid {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footerImage {
+        width: 150px;
+        /* Réduit la taille pour petits écrans */
+        margin: 20px auto;
+    }
+}

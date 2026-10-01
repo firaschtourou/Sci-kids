@@ -1,0 +1,278 @@
+.dashboardContainer {
+  border-radius: 30px;
+  background-color: rgba(74, 163, 223, 1);
+  padding: 22px 22px 22px 40px;
+  height: 100vh;
+  /* ou une hauteur fixe comme 600px */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+.sidebarContent {
+  display: flex;
+  gap: 20px;
+}
+
+.sidebar {
+  width: 16%;
+  color: #fff;
+}
+
+.profileSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 19px;
+}
+
+.profileImage {
+  width: 74px;
+  height: 75px;
+  border-radius: 0;
+}
+
+.profileImage img {
+  width: 80px;
+  height: 80px;
+}
+
+.userName {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 47px;
+}
+
+.userEmail {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 2;
+  margin-top: 5px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 117px;
+}
+
+.navButton {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+}
+
+.navButton:hover {
+  background-color: rgb(3, 69, 112);
+}
+
+.logoutWrapper1 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 50px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.logoutIcon1 {
+  width: 31px;
+  aspect-ratio: 1;
+}
+
+.mainContent {
+  width: 84%;
+  background-color: #f5f5f5;
+  border-radius: 30px;
+  padding: 0px 10px 10px;
+  height: 100vh;
+  margin-bottom: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Poppins, sans-serif;
+}
+
+.greeting {
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: 3%;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 7px 8px;
+  margin-right: 3%;
+  box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+}
+
+.searchIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.searchInput {
+  border: none;
+  color: #B5B7C0;
+  font-size: 14px;
+  letter-spacing: -0.14px;
+}
+
+.formContainer {
+  margin-top: 38px;
+}
+
+.formField {
+  margin-bottom: 20px;
+}
+
+.fieldLabel {
+  color: #5F5F6E;
+  font-size: 16px;
+  line-height: 1;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 3%;
+}
+
+.requiredMark {
+  color: #FE5722;
+  margin-left: 4px;
+}
+
+.textInput {
+  width: 90%;
+  height: 55px;
+  border-radius: 15px;
+  background-color: #C2C6D2;
+  border: none;
+  padding: 0 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.selectField {
+  width: 94%;
+  height: 55px;
+  border-radius: 15px;
+  background-color: #C2C6D2;
+  border: none;
+  padding: 0 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  margin-top: 59px;
+}
+
+.actionButton {
+  background-color: #57D1CA;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 15px 70px;
+  font: 16px/1 Salsa, sans-serif;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .dashboardContainer {
+    padding: 10px 15px;
+  }
+
+
+  .sidebar {
+    width: 20%;
+  }
+
+  .mainContent {
+    width: 80%;
+  }
+
+  .textInput {
+    width: 88%;
+  }
+
+  .profileContainer {
+    margin-top: 40px;
+  }
+
+  .navigation {
+    margin-top: 40px;
+  }
+
+  .mainContent {
+    margin-top: 40px;
+    padding: 0 20px 100px;
+  }
+
+  .buttonGroup {
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+
+  .actionButton {
+    padding: 15px 40px;
+  }
+}
+
+@media (max-width: 820px) {
+
+  .mainContent {
+    width: 84%;
+    height: 70%;
+    padding-bottom: 190px;
+  }
+
+  .dashboardContainer {
+    padding: 22px 40px;
+  }
+
+  .sidebar {
+    width: 16%;
+  }
+
+  .statsSection {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px 33px;
+  }
+
+  .profileImage {
+    margin-top: 60px;
+  }
+
+  .teachersSection {
+    margin-top: 54px;
+    padding: 45px;
+  }
+
+  .greeting {
+    font-size: 24px;
+  }
+
+  .clubsContainer {
+    width: 70%;
+    margin-left: 13%;
+  }
+}

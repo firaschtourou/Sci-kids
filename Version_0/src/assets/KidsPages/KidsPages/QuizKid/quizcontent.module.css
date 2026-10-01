@@ -1,0 +1,163 @@
+/* Style général */
+.quizContainer {
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Police amusante pour les enfants */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #4AA3DF; /* Fond bleu vif */
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: center;
+}
+
+/* Titre principal */
+.quizContainer h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  animation: bounce 2s infinite; /* Animation de rebond */
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Liste des quiz */
+.quizList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.quizList li {
+  cursor: pointer;
+  margin: 15px 0;
+  padding: 15px;
+  background-color: #FF66B2; /* Rose vif */
+  border-radius: 15px;
+  transition: transform 0.3s, background-color 0.3s;
+  font-size: 1.2rem;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.quizList li:hover {
+  background-color: #F5D555; /* Jaune vif au survol */
+  transform: scale(1.05);
+  color: #4AA3DF; /* Changement de couleur du texte */
+}
+
+/* Formulaire de quiz */
+.quizForm {
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.quizForm h2 {
+  color: #4AA3DF; /* Bleu vif */
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.questionBlock {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #5AD78F; /* Vert vif */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.questionBlock h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.answerLabel {
+  display: block;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: #F5D555; /* Jaune vif */
+  border-radius: 10px;
+  transition: transform 0.3s, background-color 0.3s;
+  color: #4AA3DF; /* Bleu vif */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.answerLabel:hover {
+  background-color: #FF66B2; /* Rose vif au survol */
+  transform: scale(1.05);
+  color: white;
+}
+
+.answerLabel input {
+  margin-right: 10px;
+}
+
+/* Bouton de soumission */
+.submitButton {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  background-color: #FF66B2; /* Rose vif */
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.submitButton:hover {
+  background-color: #F5D555; /* Jaune vif au survol */
+  transform: scale(1.1);
+  color: #4AA3DF; /* Bleu vif */
+}
+
+/* Résultats */
+.resultContainer {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #4AA3DF; /* Bleu vif */
+}
+
+.resultContainer h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.resultContainer p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+/* Animation pour les résultats */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.resultContainer {
+  animation: fadeIn 1s ease-in-out;
+}

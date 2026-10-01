@@ -1,0 +1,32 @@
+.galleryImage {
+    aspect-ratio: 1.07;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    flex-grow: 1;
+
+  }
+  
+  @media (max-width: 991px) {
+    .galleryImage {
+      margin-top: 40px;
+    }
+  }
+  
+  .imageColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+  }
+  
+  .imageColumn:first-child {
+    margin-left: 0;
+  }
+  
+  @media (max-width: 991px) {
+    .imageColumn {
+      width: 100%;
+    }
+  }

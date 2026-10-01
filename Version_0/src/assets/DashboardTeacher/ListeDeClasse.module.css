@@ -1,0 +1,358 @@
+/* Styles de base */
+.container {
+    border-radius: 30px;
+    background-color: rgba(90, 215, 143, 1);
+    padding: 22px 22px 22px 40px;
+    overflow: hidden;
+}
+
+.sidebarContent {
+    display: flex;
+    gap: 20px;
+}
+
+.sidebar {
+    width: 16%;
+    color: #fff;
+}
+
+.profileSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 19px;
+}
+
+.profileImage {
+    width: 74px;
+    height: 75px;
+    border-radius: 0;
+}
+
+.profileImage img {
+    width: 80px;
+    height: 80px;
+}
+
+.userName {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 27px;
+}
+
+.userEmail {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 2;
+    margin-top: 5px;
+}
+
+.logoutWrapper2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 280px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 30px;
+  
+  }
+  
+  .logoutIcon2 {
+    width: 31px;
+    aspect-ratio: 1;
+  }
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 117px;
+}
+
+.navButton {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    cursor: pointer;
+}
+
+.mainContent {
+    width: 84%;
+    background-color: rgba(250, 251, 255, 1);
+    border-radius: 30px;
+    padding: 20px 10px 10px;
+}
+
+.header {
+    display: flex;
+    width: 954px;
+    max-width: 100%;
+    gap: 20px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.greeting {
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+}
+
+.searchBox {
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    color: rgba(181, 183, 192, 1);
+    letter-spacing: -0.14px;
+    padding: 7px 8px;
+}
+
+.searchIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 24px;
+}
+
+.title {
+    color: rgba(74, 163, 223, 1);
+    text-align: center;
+    margin-top: 125px;
+    -webkit-text-stroke: 2px black;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #888888;
+    margin: 20px;
+}
+
+.boutons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: -100px;
+}
+
+.shareLink {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    background-color: rgba(74, 163, 223, 1);
+    width: 28%;
+    padding: 13px 67px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.shareLink:hover {
+    background-color: rgba(64, 153, 213, 1);
+}
+
+.shareLink:focus {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.tableContainer {
+    max-height: 400px; /* Hauteur maximale pour le défilement */
+    overflow-y: auto; /* Active le défilement vertical */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 150px;
+    width: 100%;
+}
+
+.studentTable {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.tableHeader .headerCell,
+.studentRow .studentCell,
+.levelIcons {
+    border: 1px solid var(--header-footer-blocks-borders-rules-outlines, #8b9296);
+    padding: 14px 35px;
+    text-align: center;
+    vertical-align: middle;
+    height: 40px;
+    display: table-cell;
+    font: 400 16px Open Sans, sans-serif;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tableHeader .headerCell {
+    font: 400 16px 'Otomanopee One', -apple-system, Roboto, Helvetica, sans-serif;
+    background: var(--header-footer-blocks-borders-block-bg, #edf1f2);
+}
+
+.studentRow {
+    display: table-row;
+}
+
+.levelIcons {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.levelIcon {
+    aspect-ratio: 1.12;
+    object-fit: contain;
+    width: 27px;
+}
+
+.boldText {
+    font-weight: 700;
+}
+
+button {
+    background-color: rgba(90, 215, 143, 1);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(24, 116, 62);
+}
+
+@media (max-width: 1180px) {
+    .mainContent {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media (max-width: 991px) {
+    .headerCell {
+        padding: 0 20px;
+    }
+
+    .studentCell {
+        padding: 0 20px;
+    }
+
+    .levelIcons {
+        padding: 14px 35px;
+    }
+
+    .tableHeader,
+    .levelIcons,
+    .studentRow {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+
+    .sidebar {
+        width: 25%;
+    }
+
+    .mainContent {
+        width: 75%;
+        margin-left: -20px;
+        height: 90vh;
+    }
+
+    .searchBox {
+        white-space: initial;
+    }
+
+    .title {
+        margin-top: 40px;
+    }
+
+    .logoutWrapper1 {
+        margin-top: 600px;
+    }
+
+    .studentTable {
+        width: 100%;
+        margin-top: -500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebarContent {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        text-align: center;
+    }
+
+    .profileSection {
+        align-items: center;
+    }
+
+    .mainContent {
+        width: 90%;
+    }
+
+    .header {
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .boutons {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shareLink {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+
+    .studentTable {
+        width: 100%;
+        margin-top: -900px;
+    }
+
+    .tableHeader .headerCell,
+    .studentRow .studentCell {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .levelIcons {
+        gap: 5px;
+    }
+}

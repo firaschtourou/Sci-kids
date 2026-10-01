@@ -1,0 +1,60 @@
+.image{
+  width: 50%;
+  height: 100%;
+}
+.gridRow {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .gridColumn {
+    flex: 1;
+    min-width: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .gridImage {
+    width: 100%;
+    aspect-ratio: 1.29;
+    object-fit: contain;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .gridImage:hover {
+    transform: scale(1.05);
+  }
+  
+  .gridImage:focus {
+    outline: 3px solid #4aa3df;
+    outline-offset: 2px;
+  }
+  
+  @media (max-width: 991px) {
+    .gridRow {
+      flex-direction: column;
+      gap: 16px;
+    }
+  
+    .gridColumn {
+      width: 100%;
+    }
+  
+    .gridImage {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .gridImage {
+      transition: none;
+    }
+  }

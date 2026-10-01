@@ -1,0 +1,847 @@
+.div18 {
+    background-color: rgba(255, 102, 178, 1);
+    display: flex;
+    margin-top: 204px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cloud {
+    aspect-ratio: 9.26;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    align-self: stretch;
+    z-index: 10;
+    margin-top: -66px;
+  }
+  
+  
+  .onGoingClasses {
+    letter-spacing: 0.96Px;
+    margin-top: 39px;
+    font: 1000 36px Righteous;
+    color: #9C29B2;
+    /* Main text color */
+    -webkit-text-stroke: 100% white;
+    /* Stroke size and color */
+    font-size: 36px;
+    /* Adjust font size as needed */
+    text-shadow:
+      1px 1px 0 white,
+      -1px -1px 0 white,
+      2px -2px 0 white,
+      -2px 2px 0 white,
+      2px 0 0 white,
+      -2px 0 0 white,
+      0 2px 0 white,
+      0 -2px 0 white;
+  
+  }
+  
+  .takeTheClassesStartLearningFromToday {
+    color: #fff;
+    letter-spacing: 1.08Px;
+    text-align: center;
+    margin-top: 18px;
+    font: 400 36px Righteous, sans-serif;
+  }
+  
+  
+  .div1 {
+    margin-top: 101px;
+    width: 100%;
+    max-width: 1080px;
+  }
+  
+  .div2 {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .column1 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px; /* Mise à jour pour correspondre */
+}
+
+.div3 {
+    border-radius: 12px;
+    background-color: rgba(74, 163, 223, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 17px 15px;
+}
+
+.img1 {
+    aspect-ratio: 1.43;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.div4 {
+    display: flex;
+    margin-top: 6px;
+    gap: 20px; /* Ajustement pour supprimer les espaces inutiles */
+    font-weight: 600;
+    text-align: center;
+    justify-content: space-between; /* Mise à jour pour l'alignement */
+}
+
+.titre1 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    letter-spacing: 0.54px; /* Correction pour px en minuscules */
+    margin: auto 0;
+}
+
+.prix1 {
+    background-color: rgba(255, 201, 9, 1);
+    border-radius: 50%;
+    font-size: 13px;
+    color: rgba(165, 239, 196, 1);
+    white-space: nowrap;
+    letter-spacing: 0.39px; /* Correction pour px en minuscules */
+    width: 47px;
+    height: 47px;
+    padding: 0 8px; /* Ajustement pour correspondre */
+}
+
+.text1 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42px; /* Correction pour px en minuscules */
+    margin-top: 9px;
+}
+
+.age1 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42px; /* Correction pour px en minuscules */
+    text-align: center;
+    align-self: center; /* Ajout pour correspondre */
+    margin-top: 7px; /* Ajustement pour correspondre */
+}
+
+.readMore1 {
+    align-self: stretch;
+    background-color: rgba(255, 201, 9, 1);
+    margin-top: 11px; /* Ajustement pour correspondre */
+    gap: 10px;
+    overflow: hidden;
+    font-size: 16px;
+    color: rgba(69, 161, 108, 1);
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.48px; /* Correction pour px en minuscules */
+    padding: 7px 85px;
+}
+ 
+.column4 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+}
+
+.div23 {
+    border-radius: 12px;
+    background-color: rgba(74, 163, 223, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 17px 15px; /* Ajusté pour correspondre à `.div3` */
+}
+
+.img11 {
+    aspect-ratio: 1.43;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.div24 {
+    display: flex;
+    margin-top: 6px; /* Aligné avec `.div33` */
+    gap: 20px; /* Aligné avec `.div33` */
+    font-weight: 600;
+    text-align: center;
+    justify-content: space-between; /* Ajouté pour correspondre à `.div33` */
+}
+
+.aviationPilotingClub {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px; /* Aligné avec `.kidspreneurClub` */
+    letter-spacing: 0.54px; /* Aligné avec `.kidspreneurClub` */
+    margin: auto 0;
+}
+
+.zied {
+    background-color: rgba(255, 201, 9, 1);
+    border-radius: 50%;
+    font-size: 13px;
+    color: rgba(165, 239, 196, 1);
+    white-space: nowrap;
+    letter-spacing: 0.39px;
+    width: 47px;
+    height: 47px;
+    padding: 0 8px;
+}
+
+.theAviationPilotingClubBringsEnthusiastsTogetherToExploreAndPracticeFlyingAndAviation {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    margin-top: 9px;
+}
+
+.age1218Years {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    text-align: center;
+    align-self: center;
+    margin-top: 7px;
+}
+
+.readMore2 {
+    align-self: stretch;
+    background-color: rgba(255, 201, 9, 1);
+    margin-top: 11px;
+    gap: 10px;
+    overflow: hidden;
+    font-size: 16px;
+    color: rgba(69, 161, 108, 1);
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.48px;
+    padding: 7px 85px;
+}
+.column5 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+}
+.div25 {
+    border-radius: 12px;
+    background-color: rgba(74, 163, 223, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 17px 15px;
+}
+.img12 {
+    aspect-ratio: 1.43;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 8px;
+}
+.div27 {
+    display: flex;
+    margin-top: 6px;
+    gap: 20px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: space-between;
+}
+.clubSoftwareAlgorithm {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    letter-spacing: 0.54px;
+    margin: auto 0;
+}
+.oussema {
+    background-color: rgba(255, 201, 9, 1);
+    border-radius: 50%;
+    font-size: 13px;
+    color: rgba(165, 239, 196, 1);
+    white-space: nowrap;
+    letter-spacing: 0.39px;
+    width: 47px;
+    height: 47px;
+    padding: 0 8px;
+}
+.theSoftwareAlgorithmClubExploresAlgorithmsAndProgramming {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    margin-top: 9px;
+    width: 275px;
+}
+.age618Years2 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    text-align: center;
+    align-self: center;
+    margin-top: 7px;
+}
+.readMore3 {
+    align-self: stretch;
+    background-color: rgba(255, 201, 9, 1);
+    margin-top: 11px;
+    gap: 10px;
+    overflow: hidden;
+    font-size: 16px;
+    color: rgba(69, 161, 108, 1);
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.48px;
+    padding: 7px 85px;
+}
+
+  
+  .div28 {
+    margin-top: 89px;
+    width: 100%;
+    max-width: 1095px;
+  }
+  .div29 {
+    gap: 20px;
+    display: flex;
+  }
+  .column6, .column9   {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+}
+
+.div30 {
+    border-radius: 12px;
+    background-color: rgba(74, 163, 223, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 17px 15px;
+}
+
+.img13 {
+    aspect-ratio: 1.43;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.div31 {
+    display: flex;
+    margin-top: 6px;
+    gap: 20px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.debateClub {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    letter-spacing: 0.54px;
+    margin: auto 0;
+}
+
+.zayneb {
+    background-color: rgba(255, 201, 9, 1);
+    border-radius: 50%;
+    font-size: 13px;
+    color: rgba(165, 239, 196, 1);
+    white-space: nowrap;
+    letter-spacing: 0.39px;
+    width: 47px;
+    height: 47px;
+    padding: 0 8px;
+}
+
+.theDebateClubOffersASpaceToDiscussArgueAndExchangeIdeasOnVariousTopics {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    margin-top: 9px;
+}
+
+.age618Years3 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    text-align: center;
+    align-self: center;
+    margin-top: 7px;
+}
+
+.readMore4 {
+    align-self: stretch;
+    background-color: rgba(255, 201, 9, 1);
+    margin-top: 11px;
+    gap: 10px;
+    overflow: hidden;
+    font-size: 16px;
+    color: rgba(69, 161, 108, 1);
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.48px;
+    padding: 7px 85px;
+}
+
+  
+  .column7 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+}
+.div3 {
+    border-radius: 12px;
+    background-color: rgba(74, 163, 223, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 17px 15px;
+}
+.img14 {
+    aspect-ratio: 1.43;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 8px;
+}
+.div33 {
+    display: flex;
+    margin-top: 6px;
+    gap: 20px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: space-between;
+}
+.kidspreneurClub {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    letter-spacing: 0.54px;
+    margin: auto 0;
+}
+.firas {
+    background-color: rgba(255, 201, 9, 1);
+    border-radius: 50%;
+    font-size: 13px;
+    color: rgba(165, 239, 196, 1);
+    white-space: nowrap;
+    letter-spacing: 0.39px;
+    width: 47px;
+    height: 47px;
+    padding: 0 8px;
+    
+}
+.theKidspreneurClubInspiresYoungEntrepreneursToDevelopTheirIdeasAndCreateInnovativeProjects {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    margin-top: 9px;
+}
+.age618Years4 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    text-align: center;
+    align-self: center;
+    margin-top: 7px;
+}
+.readMore5 {
+    align-self: stretch;
+    background-color: rgba(255, 201, 9, 1);
+    margin-top: 11px;
+    gap: 10px;
+    overflow: hidden;
+    font-size: 16px;
+    color: rgba(69, 161, 108, 1);
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.48px;
+    padding: 7px 85px;
+}
+
+  .column8 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+  }
+  .div34 {
+    border-radius: 12px;
+    background-color: rgba(74, 163, 223, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 17px 15px;
+  }
+  .img15 {
+    aspect-ratio: 1.43;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .div35 {
+    display: flex;
+    gap: 20px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  .multimediaClubContentCreation {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    letter-spacing: 0.54Px;
+  }
+  
+  .hadir {
+    background-color: rgba(255, 201, 9, 1);
+    border-radius: 50%;
+    font-size: 13px;
+    color: rgba(165, 239, 196, 1);
+    white-space: nowrap;
+    letter-spacing: 0.39Px;
+    width: 47px;
+    height: 47px;
+    margin: auto 0;
+    padding: 0 7px;
+  }
+  
+  .theMultimediaContentCreationClubExploresVideoPhotoAndDigitalMediaProduction {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42Px;
+    margin-top: 6px;
+  }
+  
+  .age618Years5 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42Px;
+    text-align: center;
+    align-self: center;
+    margin-top: 7px;
+  }
+  
+  .readMore6 {
+    align-self: stretch;
+    background-color: rgba(255, 201, 9, 1);
+    margin-top: 11px;
+    gap: 10px;
+    overflow: hidden;
+    font-size: 16px;
+    color: rgba(69, 161, 108, 1);
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.48Px;
+    padding: 7px 85px;
+  }
+  
+  .div36 {
+    margin-top: 89px;
+    width: 100%;
+    max-width: 1095px;
+  }
+  .div37 {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .column9 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+}
+
+.div38 {
+    border-radius: 12px;
+    background-color: rgba(74, 163, 223, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 17px 15px;
+    height: 460px;
+    width: 100%;
+}
+
+.img16 {
+    aspect-ratio: 1.43;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.div39 {
+    display: flex;
+    margin-top: 6px;
+    gap: 20px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.Gaming {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    letter-spacing: 0.54px;
+    margin: auto 0;
+}
+
+.prix1 {
+    background-color: rgba(255, 201, 9, 1);
+    border-radius: 50%;
+    font-size: 13px;
+    color: rgba(165, 239, 196, 1);
+    white-space: nowrap;
+    letter-spacing: 0.39px;
+    width: 47px;
+    height: 47px;
+    padding: 0 8px;
+}
+
+.Booststrategicthinkingteamworkcreativityandcodingskillsthroughinteractivegamesanddesigntools {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    margin-top: 9px;
+}
+
+.age618Years6 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    text-align: center;
+    align-self: center;
+    margin-top: 7px;
+}
+
+.readMore7 {
+    align-self: stretch;
+    background-color: rgba(255, 201, 9, 1);
+    margin-top: 11px;
+    gap: 10px;
+    overflow: hidden;
+    font-size: 16px;
+    color: rgba(69, 161, 108, 1);
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.48px;
+    padding: 7px 85px;
+}
+
+  
+  .column10 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+}
+.div40 {
+    border-radius: 12px;
+    background-color: rgba(74, 163, 223, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 17px 15px;
+    height: 460px;
+}
+.img17 {
+    aspect-ratio: 1.43;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 8px;
+}
+.div41 {
+    display: flex;
+    margin-top: 6px;
+    gap: 20px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: space-between;
+}
+.VRXRCLUB {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    letter-spacing: 0.54px;
+    margin: auto 0;
+}
+.prix2 {
+    background-color: rgba(255, 201, 9, 1);
+    border-radius: 50%;
+    font-size: 13px;
+    color: rgba(165, 239, 196, 1);
+    white-space: nowrap;
+    letter-spacing: 0.39px;
+    width: 47px;
+    height: 47px;
+    padding: 0 8px;
+    
+}
+.MastercontentcreationVRAR3Dmodelingandteamwork {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    margin-top: 9px;
+}
+.age618Years7 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    text-align: center;
+    align-self: center;
+    margin-top: 7px;
+}
+.readMore8 {
+    align-self: stretch;
+    background-color: rgba(255, 201, 9, 1);
+    margin-top: 11px;
+    gap: 10px;
+    overflow: hidden;
+    font-size: 16px;
+    color: rgba(69, 161, 108, 1);
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.48px;
+    padding: 7px 85px;
+   
+}
+
+  .column11 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+    
+  }
+  .div42 {
+    border-radius: 12px;
+    background-color: rgba(74, 163, 223, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 17px 15px;
+    height: 460px;
+  }
+  .img18 {
+    aspect-ratio: 1.43;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .div43 {
+    display: flex;
+    gap: 20px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  .AEROSPACECLUB {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    letter-spacing: 0.54Px;
+  }
+  
+  .prix3 {
+    background-color: rgba(255, 201, 9, 1);
+    border-radius: 50%;
+    font-size: 13px;
+    color: rgba(165, 239, 196, 1);
+    white-space: nowrap;
+    letter-spacing: 0.39Px;
+    width: 47px;
+    height: 47px;
+    margin: auto 0;
+    padding: 0 7px;
+  }
+  
+  .Explorespacetechrocketssatellitesandaerospaceinnovation {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42Px;
+    margin-top: 6px;
+  }
+  
+  .age618Years8 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42Px;
+    text-align: center;
+    align-self: center;
+    margin-top: 7px;
+  }
+  
+  .readMore9  {
+    align-self: stretch;
+    background-color: rgba(255, 201, 9, 1);
+    margin-top: 11px;
+    gap: 10px;
+    overflow: hidden;
+    font-size: 16px;
+    color: rgba(69, 161, 108, 1);
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.48Px;
+    padding: 7px 85px;
+    border-color:rgba(255, 201, 9, 1) ;
+  }
+  
+
+.cloud1 {
+    aspect-ratio: 9.26;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    align-self: stretch;
+    z-index: 10;
+    margin: 45px 0 -68px;
+  }  

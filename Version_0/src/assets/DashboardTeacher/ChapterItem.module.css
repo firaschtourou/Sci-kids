@@ -1,0 +1,51 @@
+.chapterContainer {
+    display: flex;
+    gap: 18px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    line-height: 1;
+    margin-top: 72px;
+}
+.addQuizButton {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    padding: 10px 20px; /* Ajustez le padding pour une meilleure apparence */
+    border-radius: 17px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background-color: #4AA3DF;
+    color: #fff;
+    margin-top: 10px;
+    width: 150px; /* Largeur fixe */
+    height: 40px; /* Hauteur fixe */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: none; /* Supprime la bordure par défaut */
+    outline: none; /* Supprime le contour lors du focus */
+}
+
+.addQuizButton:hover {
+    transform: translateY(-2px);
+    background-color: #1f5172;
+}
+
+@media (max-width: 991px) {
+    .chapterContainer {
+        margin-top: 40px;
+    }
+}
+
+.chapterIcon {
+    aspect-ratio: 1.57;
+    object-fit: contain;
+    object-position: center;
+    width: 47px;
+}
+
+.chapterTitle {
+    flex-basis: auto;
+    margin: auto 0;
+}

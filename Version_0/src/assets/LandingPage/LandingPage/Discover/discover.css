@@ -1,0 +1,126 @@
+/* Styles généraux */
+.Text h1 {
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+    color: #5AD78F;
+    font: 800 48px 'righteous';
+    -webkit-text-stroke: 100% #C8F9DD;
+    text-shadow:
+      3px 3px 0 #C8F9DD,
+      -3px -3px 0 #C8F9DD,
+      4px -4px 0 #C8F9DD,
+      -4px 4px 0 #C8F9DD,
+      4px 4px 4px #C8F9DD,
+      -4px 4px 4px #C8F9DD,
+      0 2px 0 #C8F9DD,
+      0 -2px 0 #C8F9DD;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* Style pour les étoiles */
+.etoile1, .etoile2, .etoile3, .etoile4 {
+    aspect-ratio: 1.05;
+    object-fit: contain;
+    object-position: center;
+    width: 79px;
+}
+
+/* Etoile 1 */
+.etoile1 {
+    margin-top: 9px;
+    margin-left: 20px;
+}
+
+/* Etoile 2 */
+.etoile2 {
+    margin-left: 1300px;
+}
+
+/* Etoile 3 */
+.etoile3 {
+    margin-top: 80px;
+    margin-bottom: 200px;
+    margin-left: 20px;
+}
+
+/* Etoile 4 */
+.etoile4 {
+    margin-left: 1300px;
+    margin-bottom: 200px;
+}
+
+/* Conteneur de la div principale */
+.div15 {
+    display: flex;
+    align-items: flex-start;
+    gap: 13px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: auto;
+    object-position: center;
+    height: 385px;
+    margin-top: 10px;
+}
+
+/* Paragraphe */
+.paragraphe {
+    align-self: start;
+    flex-grow: 1;
+    flex-basis: auto;
+    color: #416FA8;
+    text-align: center;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+    /* Pour les tablettes */
+    .Text h1 {
+        font-size: 36px; /* Réduire la taille du texte */
+        margin-top: 20px;
+    }
+
+    .etoile1, .etoile2, .etoile3, .etoile4 {
+        width: 60px; /* Réduire la taille des étoiles */
+    }
+
+    .div15 {
+        height: auto; /* Ajuster la hauteur de la div */
+    }
+
+    .paragraphe {
+        font-size: 16px; /* Ajuster la taille du texte dans le paragraphe */
+    }
+
+    .etoile2, .etoile4 {
+        margin-left: 0; /* Aligner les étoiles au centre */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Pour les mobiles */
+    .Text h1 {
+        font-size: 28px; /* Réduire encore la taille du texte */
+        margin-top: 10px;
+    }
+
+    .etoile1, .etoile2, .etoile3, .etoile4 {
+        width: 50px; /* Réduire la taille des étoiles */
+    }
+
+    .div15 {
+        flex-direction: column; /* Passer les éléments en colonne */
+        height: auto; /* Ajuster la hauteur */
+    }
+
+    .paragraphe {
+        font-size: 14px; /* Ajuster la taille du texte dans le paragraphe */
+    }
+
+    .etoile2, .etoile4 {
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

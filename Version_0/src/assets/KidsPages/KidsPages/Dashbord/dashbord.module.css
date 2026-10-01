@@ -1,0 +1,468 @@
+.dashboard2 {
+  background-color: rgba(74, 163, 223, 1);
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content2 {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  /* Ajoutez cette ligne pour positionner l'image relativement */
+}
+
+.sidebar2 {
+  width: 18%;
+  height: 100%;
+  /* S'assure que la sidebar occupe toute la hauteur */
+}
+
+.userProfile2 {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font: 16px Nunito, sans-serif;
+}
+
+.profileWrapper2 {
+  position: relative;
+  aspect-ratio: 2.786;
+  padding: 60px 62px 10px;
+}
+
+.profileBackground2 {
+  position: absolute;
+  inset: 0;
+  height: 70%;
+  width: 100%;
+
+}
+
+.menuBackground2 {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.avatar2 {
+  aspect-ratio: 1;
+  width: 45px;
+  box-shadow: 0 4px 4px rgba(251, 195, 114, 1);
+  border-radius: 50%;
+  position: relative;
+}
+
+.userInfo2 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: -45px;
+  margin-left: 60px;
+}
+
+.userName2 {
+  font-size: 20px;
+  /* Taille du texte */
+  color: #fff;
+  display: flex;
+  /* Aligne les éléments horizontalement */
+  align-items: center;
+  font: 18px Nunito, sans-serif;
+}
+
+.userId2 {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.menuItem2 {
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1px;
+  border: 3px solid rgba(254, 147, 170, 1);
+  /* Définit une bordure rose */
+  aspect-ratio: 4.955;
+  margin-top: 171px;
+  padding: 9px 15px;
+  color: #fffdfd;
+  font-weight: 1000;
+  width: 255px;
+}
+
+
+.logoutWrapper2 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 280px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 30px;
+
+}
+
+.logoutIcon2 {
+  width: 31px;
+  aspect-ratio: 1;
+}
+
+.mainContent2 {
+  flex: 1;
+  background-color: rgba(254, 147, 170, 1);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow-y: auto;
+  /* Ajoute un défilement uniquement si nécessaire */
+}
+
+.courseSection2 {
+  background-color: rgba(254, 147, 170, 1);
+  border-radius: 5px;
+  padding: 53px 28px 0 80px;
+  height: 100%;
+}
+
+.courseTitle2 {
+  color: #fff;
+  text-align: center;
+
+  font-family: Salsa, sans-serif;
+}
+
+.course2 {
+  color: #fff;
+  /* Couleur blanche du texte */
+  text-align: center;
+  font-family: 'Salsa', sans-serif;
+  /* Police similaire */
+  letter-spacing: 1px;
+  font-size: 45px;
+  text-shadow:
+      1px 1px 0 rgba(148, 24, 85, 1),
+      -1px -1px 0 rgba(148, 24, 85, 1),
+      1px -1px 0 rgba(148, 24, 85, 1),
+      -1px 1px 0 rgba(148, 24, 85, 1),
+      1px 0 0 rgba(148, 24, 85, 1),
+      -1px 0 0 rgba(148, 24, 85, 1),
+      0 1px 0 rgba(148, 24, 85, 1),
+      0 -1px 0 rgba(148, 24, 85, 1);
+  margin-top: 6px;
+
+}
+
+
+
+.courseName2 {
+  color: #fff;
+  font-family: Salsa, sans-serif;
+  margin-bottom: 0px;
+  letter-spacing: 2px;
+}
+
+.courseCards2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 60px;
+
+}
+
+.courseCard2 {
+  border-radius: 20px;
+  box-shadow: 0 4px 4px rgba(238, 238, 238, 1);
+  padding: 28px 24px;
+  display: flex;
+  justify-content: space-between;
+  width: 360px;
+  height: 40px;
+
+}
+
+.teal {
+  background-color: rgba(115, 219, 213, 1);
+}
+
+.pink {
+  background-color: rgba(255, 165, 184, 1);
+}
+
+.orange {
+  background-color: rgba(255, 209, 139, 1);
+}
+
+.green {
+  background-color: rgba(115, 219, 119, 0.9);
+}
+
+.courseContent2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-height: 150vh;
+}
+
+.courseTitle2 {
+  color: rgba(0, 0, 0, 0.87);
+  font: 700 20px Nunito, sans-serif;
+  margin-left: -440px;
+}
+
+.scoreCard2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.scoreValue2 {
+  color: #000;
+  font: 700 16px Nunito, sans-serif;
+}
+
+.scoreIndicator2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: 450px;
+}
+
+.tealIndicator {
+  background-color: rgba(87, 209, 202, 1);
+}
+
+.pinkIndicator {
+  background-color: rgba(254, 147, 170, 1);
+}
+
+.orangeIndicator {
+  background-color: rgba(251, 195, 114, 1);
+}
+
+.greenIndicator {
+  background-color: rgba(104, 209, 87, 1);
+}
+
+.scoreDot2 {
+  width: 10px;
+  height: 7px;
+  border-radius: 50%;
+  margin-top: 9px;
+
+}
+
+.scoreBar2 {
+  width: 34px;
+  height: 25px;
+  border-radius: 50%;
+
+
+}
+
+.courseIcon2 {
+  margin-left: -300px;
+
+
+
+}
+
+.tealDot,
+.tealBar {
+  background-color: rgba(87, 209, 202, 1);
+}
+
+.pinkDot,
+.pinkBar {
+  background-color: rgba(254, 147, 170, 1);
+}
+
+.orangeDot,
+.orangeBar {
+  background-color: rgba(251, 195, 114, 1);
+}
+
+.greenDot,
+.greenBar {
+  background-color: rgba(104, 209, 87, 1);
+}
+
+.btnmath {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btnmath:hover {
+  background-color: transparent;
+}
+
+
+
+.front2 {
+  position: absolute;
+  top: 200px;
+  right: 20px;
+  /* Ajustez cette valeur pour positionner l'image à droite */
+  width: 290px;
+  height: auto;
+  border-radius: 15px;
+  overflow: hidden;
+  z-index: 10;
+  /* Assurez-vous que l'image reste au-dessus des autres éléments */
+}
+
+@media (max-width: 1568px) {
+  .menuBackground2 {
+      height: 95%;
+      width: 95%;
+  }
+
+  .menuItem2 {
+      height: 100%;
+      width: 100%;
+  }
+
+}
+
+/* Pour les tablettes (max-width: 991px) */
+@media (max-width: 991px) {
+
+
+  .sidebar2 {
+      width: 100%;
+      height: 100px;
+  }
+
+  .userProfile2 {
+      text-align: center;
+  }
+
+  .profileWrapper2 {
+      padding: 20px;
+  }
+
+  .menuItem2 {
+      border: transparent;
+      color: transparent;
+      text-shadow: none;
+  }
+
+  .mainContent2 {
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  .courseSection2 {
+      padding: 20px;
+  }
+
+  .courseTitle2 {
+      font-size: 24px;
+      text-align: center;
+  }
+
+  .courseCards2 {
+      gap: 10px;
+      margin-top: 20px;
+  }
+
+  .courseCard2 {
+      width: 90%;
+      margin: 0 auto;
+  }
+
+  .menuBackground2 {
+      opacity: 0%;
+      /* Rendre l'image de fond semi-transparente */
+      border: transparent;
+  }
+
+  .dashboard2 {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .content2 {
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .front2 {
+      position: relative;
+      top: 0;
+      /* Place l'image en haut */
+      left: 50%;
+      /* Centre horizontalement */
+      transform: translateX(-50%);
+      width: 50%;
+      /* Ajustez la largeur */
+      height: auto;
+      z-index: 10;
+      /* Assure qu'elle reste au-dessus */
+  }
+
+}
+
+/* Pour les mobiles (max-width: 576px) */
+@media (max-width: 576px) {
+  .sidebar2 {
+      width: 100%;
+      height: 100px;
+      padding: 10px;
+  }
+
+  .logoutWrapper2 {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 5350px;
+      z-index: 10;
+  }
+
+  .userProfile2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .avatar2 {
+      width: 35px;
+  }
+
+  .menuItem2 {
+      width: 100%;
+      text-align: center;
+      padding: 15px;
+  }
+
+  .mainContent2 {
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  .courseTitle2 {
+      font-size: 20px;
+      text-align: center;
+  }
+
+  .courseCards2 {
+      gap: 15px;
+      margin-top: 20px;
+  }
+
+  .courseCard2 {
+      width: 90%;
+      margin: 0 auto;
+  }
+
+  .front2 {
+      width: 100%;
+      background-size: cover;
+      margin: 10px 0;
+      border-radius: 0;
+  }
+}

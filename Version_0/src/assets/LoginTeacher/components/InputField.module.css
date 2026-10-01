@@ -1,0 +1,46 @@
+.inputWrapper {
+    border-radius: 8px;
+    background-color: #ececec;
+    display: flex;
+    gap: 29px;
+    color: #2f2f2f;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    padding: 17px 80px 17px 23px;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .inputWrapper {
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  
+  .icon {
+    aspect-ratio: 1.25;
+    object-fit: contain;
+    object-position: center;
+    width: 30px;
+    margin: auto 0;
+  }
+  
+  .inputContent {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    font-size: 12px;
+    font-weight: 400;
+    align-self: start;
+  }
+  
+  .input {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 6px;
+    background: transparent;
+    border: none;
+    outline: none;
+  }

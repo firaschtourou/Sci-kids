@@ -1,0 +1,300 @@
+/* Styles de base */
+.container {
+    border-radius: 30px;
+    background-color: rgba(90, 215, 143, 1);
+    padding: 22px 22px 22px 40px;
+    overflow: hidden;
+}
+
+.sidebarContent {
+    display: flex;
+    gap: 20px;
+}
+
+.sidebar {
+    width: 16%;
+    color: #fff;
+}
+
+.profileSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 19px;
+}
+
+.profileImage {
+    width: 74px;
+    height: 75px;
+    border-radius: 0;
+}
+
+.profileImage img {
+    width: 80px;
+    height: 80px;
+}
+
+.userName {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 27px;
+}
+
+.userEmail {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 2;
+    margin-top: 5px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 117px;
+}
+
+.navButton {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    cursor: pointer;
+}
+
+.mainContent {
+    width: 84%;
+    background-color: rgba(250, 251, 255, 1);
+    border-radius: 30px;
+    padding: 20px 10px 10px;
+}
+
+.header {
+    display: flex;
+    width: 954px;
+    max-width: 100%;
+    gap: 20px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+
+}
+
+.greeting {
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+
+}
+
+.searchBox {
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    color: rgba(181, 183, 192, 1);
+    letter-spacing: -0.14px;
+    padding: 7px 8px;
+}
+
+.searchIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 24px;
+}
+
+.title {
+    color: rgba(74, 163, 223, 1);
+    text-align: center;
+    margin-top: 125px;
+    -webkit-text-stroke: 2px black;
+    /* Contour noir autour des lettres */
+    /* Contour noir (pour les navigateurs compatibles) */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #888888;
+    margin: 20px;
+}
+
+.inputGroup {
+    margin-top: 28px;
+    display: flex;
+    /* Ajoute cette ligne pour utiliser flexbox */
+    flex-direction: column;
+    /* Arrange les éléments verticalement */
+    align-items: center;
+}
+
+.inputLabel {
+    color: rgba(95, 95, 110, 1);
+    font-size: 16px;
+    line-height: 1;
+    margin-right: 630px;
+    margin-bottom: 10px;
+}
+
+.required {
+    color: rgba(254, 87, 34, 1);
+}
+
+.textInput {
+    border-radius: 15px;
+    background-color: rgba(194, 198, 210, 1);
+    width: 60%;
+    height: 58px;
+    border: none;
+    padding: 0px 20px;
+}
+
+
+.selectInput {
+    border-radius: 15px;
+    background-color: rgba(194, 198, 210, 1);
+    width: 64%;
+    height: 58px;
+    padding: 8px 57px;
+    border: none;
+    font-size: 16px;
+    color: rgba(4, 142, 71, 1);
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 46px;
+    margin-bottom: 200px;
+    margin-right: 33px;
+}
+
+.cancelButton,
+.submitButton {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    background-color: rgba(74, 163, 223, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    padding: 15px 70px;
+    font: 20px/1 Salsa, sans-serif;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 1291px) {
+    .inputLabel {
+        font-size: 16px;
+        line-height: 1;
+        margin-right: 560px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+
+    .sidebar {
+        width: 25%;
+        /* Augmente la largeur pour tablettes */
+    }
+
+    .mainContent {
+        width: 75%;
+        /* Ajuste la largeur */
+        margin-left: -20px;
+    }
+
+    .searchBox {
+        white-space: initial;
+    }
+
+    .title {
+        margin-top: 40px;
+    }
+
+    .inputLabel {
+        font-size: 16px;
+        line-height: 1;
+        margin-right: 360px;
+    }
+
+    .buttonGroup {
+        margin: 40px 10px 0 0;
+        flex-wrap: wrap;
+    }
+
+    .cancelButton,
+    .submitButton {
+        padding: 15px 20px;
+        width: 70%;
+    }
+
+    .textInput {
+        width: 70%;
+    }
+
+    .selectInput {
+        width: 76%;
+    }
+
+}
+
+/* Responsivité pour les petits écrans (<768px) */
+@media (max-width: 768px) {
+    .sidebarContent {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        /* Sidebar prend toute la largeur */
+        text-align: center;
+    }
+
+    .profileSection {
+        align-items: center;
+    }
+
+    .mainContent {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .header {
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .inputGroup {
+        align-items: stretch;
+        /* Formulaire prend toute la largeur */
+    }
+
+    .textInput {
+        width: 90%;
+    }
+
+    .selectInput {
+        width: 96%;
+    }
+
+    .buttonGroup {
+        gap: 10px;
+        /* Réduit l'espace entre boutons */
+    }
+
+    .cancelButton,
+    .submitButton {
+        width: 70%;
+        /* Boutons sur toute la largeur */
+    }
+
+}

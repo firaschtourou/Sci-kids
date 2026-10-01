@@ -1,0 +1,86 @@
+.topicContainer3 {
+    display: flex;
+    max-width: 465px;
+    gap: 35px;
+  }
+  
+  .mainCard3 {
+    border-radius: 20px;
+    background-color: #73DB77;
+    box-shadow: 0 4px 4px rgba(238, 238, 238, 1);
+    display: flex;
+    padding: 0 0 0 25px;
+    flex-direction: column;
+    flex: 1;
+    width: fit-content;
+  }
+  
+  .decorationGroup3 {
+    align-self: flex-end;
+    display: flex;
+    width: 81px;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .decorationSubGroup3 {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  
+  .circleDecor3 {
+    background-color: #68D157;
+    border-radius: 50%;
+    display: flex;
+  }
+  
+  .contentWrapper3 {
+    display: flex;
+    margin-top: 4px;
+    width: 100%;
+    gap: 40px 100px;
+  }
+  
+  .topicTitle3 {
+    color: rgba(0, 0, 0, 0.87);
+    align-self: flex-start;
+    font: 700 16px Nunito, sans-serif;
+    margin: 0;
+  }
+  
+  .decorationWrapper3 {
+    display: flex;
+    gap: 13px;
+    flex: 1;
+  }
+  
+  .scoreCard3 {
+    border-radius: 13px;
+    background-color: #73DB77;
+    box-shadow: 0 4px 4px rgba(238, 238, 238, 1);
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    white-space: nowrap;
+    text-align: center;
+    margin: auto 0;
+    padding: 1px 0 1px 12px;
+    font: 700 16px Nunito, sans-serif;
+  }
+  
+  .scoreWrapper3 {
+    align-self: flex-start;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .scoreContent3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .scoreValue3 {
+    margin-left: 11px;
+  }

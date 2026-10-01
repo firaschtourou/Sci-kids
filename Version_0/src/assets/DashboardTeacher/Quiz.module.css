@@ -1,0 +1,243 @@
+.container {
+    border-radius: 30px;
+    background-color: rgba(90, 215, 143, 1);
+    padding: 22px 22px 22px 40px;
+   
+
+}
+
+.sidebarContent {
+    display: flex;
+    gap: 20px;
+}
+
+.sidebar {
+    width: 16%;
+    color: #fff;
+}
+
+.profileSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 19px;
+}
+
+.profileImage {
+    width: 74px;
+    height: 75px;
+    border-radius: 0;
+}
+
+.profileImage img {
+    width: 80px;
+    height: 80px;
+}
+
+.userName {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 27px;
+}
+
+.userEmail {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 2;
+    margin-top: 5px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 117px;
+}
+
+.navButton {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    cursor: pointer;
+}
+
+.mainContent {
+    width: 84%;
+    background-color: rgba(250, 251, 255, 1);
+    border-radius: 30px;
+    padding: 20px 10px 10px;
+    padding-bottom: 300px;
+    overflow-y: auto; /* Défilement vertical */
+    max-height: calc(100vh - 100px);
+}
+
+.header {
+    display: flex;
+    width: 954px;
+    max-width: 100%;
+    gap: 20px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+
+}
+
+.greeting {
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+
+}
+
+.searchBox {
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    color: rgba(181, 183, 192, 1);
+    letter-spacing: -0.14px;
+    padding: 7px 8px;
+}
+
+.searchIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 24px;
+}
+
+.title {
+    color: rgba(74, 163, 223, 1);
+    text-align: center;
+    margin-top: 125px;
+    -webkit-text-stroke: 2px black;
+    /* Contour noir autour des lettres */
+    /* Contour noir (pour les navigateurs compatibles) */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #888888;
+    margin: 20px;
+}
+
+.quizBuilderContainer {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles de base pour QuizBuilder */
+.quizBuilderContainer {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+}
+
+/* Mise en page flexible pour les options */
+.quizBuilderContainer .option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Responsive pour les tablettes */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .quizBuilderContainer {
+        padding: 30px;
+        font-size: 0.9rem;
+    }
+
+    .quizBuilderContainer input[type="text"],
+    .quizBuilderContainer input[type="search"] {
+        font-size: 0.9rem;
+    }
+
+    .quizBuilderContainer .option {
+        gap: 15px;
+    }
+}
+
+/* Responsive pour les PC */
+@media (min-width: 1025px) {
+    .quizBuilderContainer {
+        max-width: 70%;
+        margin: 0 auto;
+        padding: 40px;
+        font-size: 1rem;
+    }
+
+    .quizBuilderContainer input[type="text"],
+    .quizBuilderContainer input[type="search"] {
+        font-size: 1rem;
+    }
+
+    .quizBuilderContainer .option {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+
+    .sidebar {
+        width: 25%;
+        /* Augmente la largeur pour tablettes */
+    }
+
+    .mainContent {
+        width: 75%;
+        /* Ajuste la largeur */
+        margin-left: -20px;
+    }
+
+    .searchBox {
+        white-space: initial;
+    }
+
+    .title {
+        margin-top: 40px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .sidebarContent {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        /* Sidebar prend toute la largeur */
+        text-align: center;
+    }
+
+    .profileSection {
+        align-items: center;
+    }
+
+    .mainContent {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .header {
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+
+}
